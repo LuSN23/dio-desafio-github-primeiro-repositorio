@@ -33,4 +33,27 @@ rmdir workspace /S /Q (flags)
 
 rm -rf workspace/ (remove -recursivamente e force de não pedir confirmação).
 
+0.2.2 - Realizando a instalação do GIT
+- Em Windows Explorer integration 
+	Git Bash Here
+	Git GUI Here
+Verificar se essas duas opções estão marcadas
+- Em Confirguring the line ending conversions
+Decidir o tipo de quebra de linha, decidindo qual tipo de caracter o Git vai interpretar
 
+- A grande diferença da versão 2.28 para essa é sobre o Git Credential Manager:
+Usar o mais novo o Git Credential Core.
+
+No Linux:
+sudo add-apt-repository ppa:git-core/ppa -y
+
+sudo apt update
+
+sudo apt install git
+
+git --version
+
+
+No MAC:
+-Instalar o Homebrew
+brew install git
