@@ -1,2 +1,36 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+02. Navegação via command line Interface e Instalação:
+
+0.2.1 - Comandos básicos para um bom desempenho no terminal:
+
+GUI(Graphic User Interface) x CLI(Command Line Interface)
+Windows          Unix(Linux e Mac)
+del / rmdir        rm -rf                         =  remover arquivos, pastas
+SHELL             BASH                       = de onde são derivados os terminais
+
+-"flags" são complementos passados aos comandos.
+- cls = clear screen (Windows)
+- Ctrl + L = clear(Linux)
+- Escrever um nome de arquivo/diretório após o comando e apertar TAB autocompleta o nome do arquivo/diretório.
+-"silence for sucess" = quando as coisas dão certo não aparece nada na tela.
+CRIAÇÃO DE ARQUIVOS:
+- echo hello > hello.txt (o > pega a saída da função echo e redireciona para o arquivo hello.txt)
+DELETANDO ARQUIVOS x DELETANDO DIRETÓRIOS:
+- No Windows tem uma diferença entre deletar arquivos e deletar repositórios.
+del "nomedodiretório" fará com que todos os arquivos de dentro do diretório sejam excluídos.(Usar fora da pasta para usar)
+Seta para cima/seta para baixo = atalho para navegar no histórico de comandos.
+del para arquivos e rmdir para diretório(remove directory)
+
+rmdir workspace /S /Q (flags)
+ /S      Remove todas as pastas e arquivos da pasta
+            especificada, além dela mesma. Utilizado para remover uma
+            árvore de pastas.
+
+/Q      Modo silencioso. Não pede confirmação para remover a árvore de
+            pastas ao se passar o parâmetro /S.
+
+rm -rf workspace/ (remove -recursivamente e force de não pedir confirmação).
+
+
